@@ -40,7 +40,7 @@ pipeline {
         
         stage('Code Quality Analysis') {
             steps {
-               sh " mvn sonar:sonar -Dsonar.host.url=http://54.227.159.19:9000"
+               sh " mvn sonar:sonar -Dsonar.host.url=http://192.168.229.188:9000"
             }
         }
         
